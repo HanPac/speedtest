@@ -31,6 +31,7 @@ function getChunkCount()
 function sendHeaders()
 {
     header('HTTP/1.1 200 OK');
+    header('Access-Control-Allow-Origin: *');
 
     if (isset($_GET['cors'])) {
         header('Access-Control-Allow-Origin: *');

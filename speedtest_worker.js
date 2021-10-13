@@ -1,11 +1,4 @@
-/*
-	LibreSpeed - Worker
-	by Federico Dossena
-	https://github.com/librespeed/speedtest/
-	GNU LGPLv3 License
-*/
 
-// data reported to main thread
 var testState = -1; // -1=not started, 0=starting, 1=download test, 2=ping+jitter test, 3=upload test, 4=finished, 5=abort
 var dlStatus = ""; // download speed in megabit/s with 2 decimal digits
 var ulStatus = ""; // upload speed in megabit/s with 2 decimal digits
@@ -16,6 +9,7 @@ var dlProgress = 0; //progress of download test 0-1
 var ulProgress = 0; //progress of upload test 0-1
 var pingProgress = 0; //progress of ping+jitter test 0-1
 var testId = null; //test ID (sent back by telemetry if used, null otherwise)
+
 
 var log = ""; //telemetry log
 function tlog(s) {

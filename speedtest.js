@@ -1,9 +1,4 @@
-/*
-	LibreSpeed - Main
-	by Federico Dossena
-	https://github.com/librespeed/speedtest/
-	GNU LGPLv3 License
-*/
+
 
 /*
    This is the main interface between your webpage and the speedtest.
@@ -48,9 +43,7 @@ function Speedtest() {
   this._selectedServer = null; //when using multiple points of test, this is the selected server
   this._settings = {}; //settings for the speedtest worker
   this._state = 0; //0=adding settings, 1=adding servers, 2=server selection done, 3=test running, 4=done
-  console.log(
-    "LibreSpeed by Federico Dossena v5.2.4 - https://github.com/librespeed/speedtest"
-  );
+
 }
 
 Speedtest.prototype = {
@@ -70,7 +63,7 @@ Speedtest.prototype = {
    */
   setParameter: function(parameter, value) {
     if (this._state == 3)
-      throw "You cannot change the test settings while running the test";
+      throw "Vous ne pouvez pas modifier les paramètres de test pendant l'exécution du test";
     this._settings[parameter] = value;
     if(parameter === "telemetry_extra"){
         this._originalExtra=this._settings.telemetry_extra;
@@ -83,9 +76,9 @@ Speedtest.prototype = {
   _checkServerDefinition: function(server) {
     try {
       if (typeof server.name !== "string")
-        throw "Name string missing from server definition (name)";
+        throw "Chaîne de nom manquante dans la définition du serveur (nom)";
       if (typeof server.server !== "string")
-        throw "Server address string missing from server definition (server)";
+        throw "Chaîne d'adresse du serveur manquante dans la définition du serveur (serveur)";
       if (server.server.charAt(server.server.length - 1) != "/")
         server.server += "/";
       if (server.server.indexOf("//") == 0)
@@ -113,7 +106,7 @@ Speedtest.prototype = {
    *       pingURL:"empty.php"   path to empty.php or its replacement on the server. This is used to ping the server by this selector
    *       getIpURL:"getIP.php"   path to getIP.php or its replacement on the server
    *   }
-   */
+   */  
   addTestPoint: function(server) {
     this._checkServerDefinition(server);
     if (this._state == 0) this._state = 1;
