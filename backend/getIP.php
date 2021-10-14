@@ -10,7 +10,7 @@ error_reporting(0);
 
 define('API_KEY_FILE', 'getIP_ipInfo_apikey.php');
 define('SERVER_LOCATION_CACHE_FILE', 'getIP_serverLocation.php');
-header('Access-Control-Allow-Origin: *');
+
 
 
 /**
