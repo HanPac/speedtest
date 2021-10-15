@@ -136,8 +136,8 @@ function initUI(){
 		margin:0 auto;
 		color:#FFFFFF;
 		background-color:rgba(0,0,0,0);
-		border:0.15em solid #6060FF;
-		border-radius:0.3em;
+		border:0.15em solid #ff60FF;
+		border-radius:0.7em;
 		transition:all 0.3s;
 		box-sizing:border-box;
 		width:8em; height:3em;
@@ -148,22 +148,22 @@ function initUI(){
 	#startStopBtn:hover{
 		display:inline-block;
 		margin:0 auto;
-		color:#FF3030;
+		color:#FFFF30;
 		background-color:rgba(0,45,0,0);
 		border:0.15em solid #6060FF;
 		cursor:pointer;
 		box-shadow: 0 0 0 rgba(0,0,0,0.1), inset 0 0 0 rgba(0,0,0,0.1);
 	}
 	#startStopBtn.running{
-		background-color:#FF3030;
+		background-color:#FF6060;
 		border-color:#FF6060;
 		color:#FFFFFF;
 	}
 	#startStopBtn:before{
-		content:"Start";
+		content:"Commencer";
 	}
 	#startStopBtn.running:before{
-		content:"Abort";
+		content:"Annuler";
 	}
 	#test{
 		margin-top:2em;
@@ -258,7 +258,7 @@ function initUI(){
 	a.privacy{
         text-align:center;
         font-size:0.8em;
-        color:#808080;
+        color:#ffff99;
         padding: 0 3em;
     }
     div.closePrivacyPolicy {
@@ -279,8 +279,8 @@ function initUI(){
 <body>
 <h1>LibreSpeed Example</h1> -->
 <div id="testWrapper">
-	<div id="startStopBtn" onclick="startStop()"></div><br/>
-	<a class="privacy" href="#" onclick="I('privacyPolicy').style.display=''">Privacy</a>
+	<div id="startStopBtn" style="background-color:#009f00 " onclick="startStop()"></div><br/>
+	<a class="privacy" href="#" onclick="I('privacyPolicy').style.display=''">Confidentialité</a>
 	<div id="test">
 		<div class="testGroup">
 			<div class="testArea2">
@@ -312,7 +312,7 @@ function initUI(){
 			<span id="ip"></span>
 		</div>
 		<div id="shareArea" style="display:none;color:#FFFFFF;">
-			<h3 >Share results</h3>
+			<h3 >Partager les resultats</h3>
 			<p>Test ID: <span id="testId"></span></p>
 			<input type="text" value="" id="resultsURL" readonly="readonly" onclick="this.select();this.focus();this.select();document.execCommand('copy');alert('Link copied')"/>
 			<img src="" id="resultsImg" />
@@ -324,7 +324,7 @@ function initUI(){
 </div>
 <div id="privacyPolicy" style="display:none">
     <h2>Privacy Policy</h2>
-    <p>This HTML5 Speedtest server is configured with telemetry enabled.</p>
+    <p>This QoS 4G/5G Speedtest server is configured with telemetry enabled.</p>
     <h4>What data we collect</h4>
     <p>
         At the end of the test, the following data is collected and stored:
@@ -359,7 +359,7 @@ function initUI(){
     </p>
     <br/><br/>
     <div class="closePrivacyPolicy">
-        <a class="privacy" href="#" onclick="I('privacyPolicy').style.display='none'">Close</a>
+        <a class="privacy btn btn-primary" href="#" onclick="I('privacyPolicy').style.display='none'" style="color:#ffffff;border-radius:12px;">Close</a>
     </div>
     <br/>
 </div>
