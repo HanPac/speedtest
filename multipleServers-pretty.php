@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
 <link rel="shortcut icon" href="favicon.ico">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
 <title>LibreSpeed Example</title>
 <script type="text/javascript" src="speedtest.js"></script>
 <script type="text/javascript">
-
 //LIST OF TEST SERVERS. See documentation for details if needed
 var SPEEDTEST_SERVERS=[
 	{	
 		name:"Orange RDC", //user friendly name for the server
-		server:"//orange.cd/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
+		server:"//localhost/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
 		dlURL:"backend/garbage.php",  //path to download test on this server (garbage.php or replacement)
 		ulURL:"backend/empty.php",  //path to upload test on this server (empty.php or replacement)
 		pingURL:"backend/empty.php",  //path to ping/jitter test on this server (empty.php or replacement)
@@ -20,20 +20,20 @@ var SPEEDTEST_SERVERS=[
 	},
 	{	
 		name:"Google California", //user friendly name for the server
-		server:"//google.com/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
-		dlURL:"garbage.php",  //path to download test on this server (garbage.php or replacement)
-		ulURL:"empty.php",  //path to upload test on this server (empty.php or replacement)
-		pingURL:"empty.php",  //path to ping/jitter test on this server (empty.php or replacement)
-		getIpURL:"getIP.php"  //path to getIP on this server (getIP.php or replacement)
+		server:"//127.0.0.1/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
+		dlURL:"backend/garbage.php",  //path to download test on this server (garbage.php or replacement)
+		ulURL:"backend/empty.php",  //path to upload test on this server (empty.php or replacement)
+		pingURL:"backend/empty.php",  //path to ping/jitter test on this server (empty.php or replacement)
+		getIpURL:"backend/getIP.php"  //path to getIP on this server (getIP.php or replacement)
 	},
 
 	{
 		name:"Microsoft", //user friendly name for the server
-		server:"//microsoft.com/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
-		dlURL:"garbage.php",  //path to download test on this server (garbage.php or replacement)
-		ulURL:"empty.php",  //path to upload test on this server (empty.php or replacement)
-		pingURL:"empty.php",  //path to ping/jitter test on this server (empty.php or replacement)
-		getIpURL:"getIP.php"  //path to getIP on this server (getIP.php or replacement)
+		server:"//localhost/", //URL to the server. // at the beginning will be replaced with http:// or https:// automatically
+		dlURL:"backend/garbage.php",  //path to download test on this server (garbage.php or replacement)
+		ulURL:"backend/empty.php",  //path to upload test on this server (empty.php or replacement)
+		pingURL:"backend/empty.php",  //path to ping/jitter test on this server (empty.php or replacement)
+		getIpURL:"backend/getIP.php"  //path to getIP on this server (getIP.php or replacement)
 	}
 	//add other servers here, comma separated
 ];

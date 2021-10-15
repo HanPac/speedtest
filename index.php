@@ -137,64 +137,31 @@
                                 <?php include('singleServer-full.php')?>
                                 </div>                   
                             </div>                            
-                        </div>
-
+                        </div>   
                         <div id="to_token_sale_1" class="padding_top-80 text_center page-fill">
                             <div class="container">
                                 <div class="title-subtile-holder wow fadeIn text_center">
-                                    <h1 class="section-title light_title no-margin">Multi Server</h1>
+                                    <h1 class="section-title light_title no-margin">Multiple Servers</h1>
                                     <div class="spacer_10"></div>
                                     <div class="clearfix"></div>
                                     <div class="section-border green_border no-margin"></div>
                                     <div class="spacer_10"></div>
-                                    <div class="section-subtitle light_subtitle">Ping un nom d'hôte, serveur ou périphérique réseau à partir de plusieurs emplacements. <br />
-                                    Maintenant vous pouvez vérifier votre adresse IP et voir le taux de latence en téléchargment et téléversement ainsi que le jitter vers le serveur choisi. </div> </div>
+                                    <div class="section-subtitle light_subtitle">Ping une adresse IP ou nom d'hôte, serveur ou périphérique réseau à partir d'un emplacements. <br />
+                                    Maintenant vous pouvez vérifier votre adresse IP et voir le taux de latence en téléchargment et téléversement ainsi que le jitter. </div>
                                 </div>
                                 <div class="row decentralized-total-contribution">
-                                  <!-- Single Server -->
-                                <?php include('singleServer-full.php')?>
+                                  <!-- Multiple Server -->
+                                <?php //include_once('multipleServers-full.php')?>
                                 </div>                   
                             </div>                            
-                        </div>
-                        <!-- Section8 BitWallet - Know Your Customer -->
-                        <div class="clearfix"></div>
-                        <div class="padding_top-80 text_center page-fill">
-                            <div class="container">
-                                <div class="row decentralized-customer">
-                                <h2 class="wow fadeIn">Soucrire à la Newsletter</h2>
-                                <h3 class="wow fadeIn">Souscrire à notre newsletter pour recevoir des mis à jour des services<br /> et des nouvelles tendances du deploiement de la 4G/5G</h3>
-                                <div class="spacer_30"></div>
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-8">
-                                        <div class="decentralized-svg-version">
-                                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-335" method="post" data-id="335" data-name="newsletter">
-                                                <div class="mc4wp-form-fields">
-                                                    <div class="newsletter">
-                                                        <div class="c-sign-up-form-input">
-                                                            <input type="email" name="EMAIL" placeholder="Inserer l'adresse email" required />
-                                                        </div>
-                                                        <input type="submit" value="S'ABONNER" />
-                                                    </div>
-                                                </div>
-                                            </form>
-                                            <!-- / MailChimp  -->
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper"></div>
-                                        </div>
-                                    </div>
-                                    <div class="spacer_80"></div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
+                                </div>                   
+                            </div>                            
+                        </div>                                                
+                            </div>                            
+                        </div>                                                
+                    </div>
+
+                        
                     </div>
 				</div>
 			</div>
@@ -207,7 +174,7 @@
 	     
 	     <!-- TICKERS DARK -->
 	    <div class="tickers-black-sm crypto-ticker">
-	        <ul id="webticker-dark-icons">
+	        <!-- <ul id="webticker-dark-icons">
 	            <li data-update="item1"><i class="cc BTC"></i> BTC <span class="coin-value"> $11.039232</span></li> 
 	            <li data-update="item2"><i class="cc ETH"></i> ETH <span class="coin-value"> $1.2792</span></li> 
 	            <li data-update="item3"><i class="cc GAME"></i> GAME <span class="coin-value"> $11.039232</span></li> 
@@ -219,7 +186,7 @@
 	            <li data-update="item9"><i class="cc MINT"></i> MINT <span class="coin-value"> $0.880694</span></li> 
 	            <li data-update="item10"><i class="cc IOTA"></i> IOT <span class="coin-value"> $2.555</span></li> 
 	            <li data-update="item11"><i class="cc DASH"></i> DAS <span class="coin-value"> $769.22</span></li>   
-	        </ul>
+	        </ul> -->
 	    </div>       
 
 	    <!-- FOOTER -->
