@@ -12,7 +12,6 @@ define('API_KEY_FILE', 'getIP_ipInfo_apikey.php');
 define('SERVER_LOCATION_CACHE_FILE', 'getIP_serverLocation.php');
 
 
-
 /**
  * @return string
  */

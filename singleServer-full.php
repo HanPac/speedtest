@@ -279,7 +279,7 @@ function initUI(){
 <body>
 <h1>LibreSpeed Example</h1> -->
 <div id="testWrapper">
-	<div id="startStopBtn" style="background-color:#009f00 " onclick="startStop()"></div><br/>
+	<strong><div id="startStopBtn" style="background-color:#009f00 " onclick="startStop()"></div></strong><br/>
 	<a class="privacy" href="#" onclick="I('privacyPolicy').style.display=''">Confidentialité</a>
 	<div id="test">
 		<div class="testGroup">
@@ -289,7 +289,7 @@ function initUI(){
 				<div class="unit" style="color:#FFFFFF">ms</div>
 			</div>
 			<div class="testArea2">
-				<div class="testName" style="color:#FFFFFF">Jitter</div>
+				<div class="testName" style="color:#FFFFFF">Gigue </div>
 				<div id="jitText" class="meterText" style="color:#AA6060"></div>
 				<div class="unit" style="color:#FFFFFF">ms</div>
 			</div>

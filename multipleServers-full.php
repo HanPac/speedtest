@@ -406,7 +406,7 @@ function initUI(){
 
 </head>
 <body onload="initServers()">
-<h1>LibreSpeed Example</h1>
+
 <div id="loading" class="visible">
 	<p id="message"><span class="loadCircle"></span>Selecting a server...</p>
 </div>
