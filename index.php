@@ -100,7 +100,7 @@
                                             Des enquêtes sont souvent effectuées par les organes spécialisés afin de déterminer le niveau de satisfaction des clients et les axes ou les insuffisances sont notées.</h3>
                                             <h2 class="wow fadeInDown wpb_start_animation">TESTEZ VOTRE CONNECTIVITE</h2>
                                             <div class="countdownv2_holder countdown-version3">
-                                                <div class="countdownv2 clock flip-clock-wrapper" data-count-down="2025/11/12"></div>
+                                                <div class="countdownv2 clock flip-clock-wrapper" data-count-down="2022/02/12"></div>
                                             </div>
                                             <div class="spacer_30"></div>
                                             <div class="text-right bitwallet-btn modeltheme_button wow fadeInLeft wpb_start_animation">
