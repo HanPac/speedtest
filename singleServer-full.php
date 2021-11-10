@@ -160,7 +160,7 @@ function initUI(){
 		color:#FFFFFF;
 	}
 	#startStopBtn:before{
-		content:"Commencer";
+		content:"Tester";
 	}
 	#startStopBtn.running:before{
 		content:"Annuler";

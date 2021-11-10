@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='robots' content='noindex,follow' />
     <link rel="shortcut icon" href="assets/images/favicon.png">
-    <title>QoS Client Side - Speedtest</title>
+    <title>Quality of Service Client Side - Speedtest</title>
     
     <!-- CSS -->
     <link rel='stylesheet' type='text/css' media='all' href="assets/css/simple-line-icons.css"/>
@@ -29,107 +29,24 @@
 </head>
 
 <body class="page-template-default page page-child footer_row1_off is_header_semitransparent cryptic-one-page is_nav_sticky">
-    <!-- <div class="cryptic_preloader_holder cryptic_preloader_holder_ico v2_ball_pulse">
-    	<div class="cryptic_preloader v2_ball_pulse">
-            <div class="loaders">
-                <div class="loader">
-                    <div class="loader-inner ball-pulse">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     
     <!-- PAGE #page -->
     <div id="page" class="hfeed site">
-        <header class="header4">
-	  		<!-- BOTTOM BAR -->
-			<nav id="modeltheme-main-head" class="navbar navbar-default transparent-nav">
-			    <div class="container">
-			        <div class="row">
-			          	<!-- LOGO -->
-			          	<div class="navbar-header col-md-2">
-			            	<!-- NAVIGATION BURGER MENU -->
-			            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				                <span class="sr-only"></span>
-				                <span class="icon-bar"></span>
-				                <span class="icon-bar"></span>
-				                <span class="icon-bar"></span>
-			            	</button>
-				            <h1 class="logo" style="margin-top:0px">
-				                  <a href="/">
-				                      <img src="assets/images/logo_200x200.png" alt="QoS 4G/5G" height="60px" width="80px"/>
-				                  </a>
-				            </h1>
-			            </div>                                                     
-				        <!-- NAV MENU -->
-                        <div id="navbar" class="navbar-collapse collapse col-md-10">
-                            <div class="menu nav navbar-nav pull-right nav-effect nav-menu">
-                                <div class="menu-one-page-container">
-                                    <ul id="menu-one-page" class="menu">
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#to_initial">Home</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#to_token_sale">Mono-Serveur</a></li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#to_token_sale_1">Multi-Serveur</a></li>
-                                        <li class="to_whitepaper menu-item menu-item-type-custom menu-item-object-custom"><a target="_blank" href="https://wa.me/+243817718496?text=Hello,From QoS 4G/5G">Nous rejoindre</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-	        		</div>
-	    		</div>
-	  		</nav>
-		</header>
-	    
-	    
+
 	    <!-- Page content -->
-	    <div class=" content-area no-sidebar" id="primary">
+	    <div class="content-area no-sidebar" id="primary">
         	<div class="container-fluid">
         		<div class="row">
                     <div class="entry-content">
-                        <!-- Section1 - BitWallet One Page -->
-                        <div id="to_initial" class="padding_top-80 cryptic_one_page data_background" data-background="assets/images/background-2.png">
-                            <div class="padding_80 text-center">
-                                <div class="container">
-                                    <div class="row vc_row-has-fill">
-                                        <div class="col-sm-9 col-md-6">
-                                            <h1 class="wow fadeInDown wpb_start_animation">Outils de Test de connectivité et<br/> QoS 4G/5G côté client </h1>
-                                            <h3 class="wow fadeInDown wpb_start_animation">Qualité de service perçue par l’utilisateur (QoSE) est le niveau de qualité dont l’utilisateur estime avoir.<br /> 
-                                            Des enquêtes sont souvent effectuées par les organes spécialisés afin de déterminer le niveau de satisfaction des clients et les axes ou les insuffisances sont notées.</h3>
-                                            <h2 class="wow fadeInDown wpb_start_animation">TESTEZ VOTRE CONNECTIVITE</h2>
-                                            <div class="countdownv2_holder countdown-version3">
-                                                <div class="countdownv2 clock flip-clock-wrapper" data-count-down="2022/02/12"></div>
-                                            </div>
-                                            <div class="spacer_30"></div>
-                                            <div class="text-right bitwallet-btn modeltheme_button wow fadeInLeft wpb_start_animation">
-                                                <a href="#to_token_sale" class="button-winona btn btn-medium btn_custom_blue_grad">1 serveur</a>
-                                            </div>
-                                            <div class="text-left bitwallet-btn modeltheme_button wow fadeInLeft wpb_start_animation">
-                                                <a href="#to_token_sale_1" class="button-winona btn btn-medium btn_to_whitepaper">Plusieurs serveurs</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper"></div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <div id="to_token_sale" class="padding_top-80 text_center page-fill">
                             <div class="container">
                                 <div class="title-subtile-holder wow fadeIn text_center">
-                                    <h1 class="section-title light_title no-margin">Single Server</h1>
+                                    <h1 class="section-title light_title no-margin">Speedtest</h1>
                                     <div class="spacer_10"></div>
                                     <div class="clearfix"></div>
                                     <div class="section-border green_border no-margin"></div>
                                     <div class="spacer_10"></div>
-                                    <div class="section-subtitle light_subtitle">Ping une adresse IP ou nom d'hôte, serveur ou périphérique réseau à partir d'un emplacements. <br />
+                                    <div class="section-subtitle light_subtitle">Tout comme votre connexion internet à la maison, il est tout à fait possible de tester la vitesse de votre connexion internet mobile disponible sur votre smartphone en 3G ou 4G (et bientôt en 5G). Pour cela, il vous suffit simplement réaliser un test de débit mobile également appelé Speedtest. <br />
                                     Maintenant vous pouvez vérifier votre adresse IP et voir le taux de latence en téléchargment et téléversement ainsi que le jitter. </div>
                                 </div>
                                 <div class="row decentralized-total-contribution">
@@ -138,34 +55,12 @@
                                 </div>                   
                             </div>                            
                         </div>   
-                        <div id="to_token_sale_1" class="padding_top-80 text_center page-fill">
-                            <div class="container">
-                                <div class="title-subtile-holder wow fadeIn text_center">
-                                    <h1 class="section-title light_title no-margin">Multiple Servers</h1>
-                                    <div class="spacer_10"></div>
-                                    <div class="clearfix"></div>
-                                    <div class="section-border green_border no-margin"></div>
-                                    <div class="spacer_10"></div>
-                                    <div class="section-subtitle light_subtitle">Ping une adresse IP ou nom d'hôte, serveur ou périphérique réseau à partir d'un emplacements. <br />
-                                    Maintenant vous pouvez vérifier votre adresse IP et voir le taux de latence en téléchargment et téléversement ainsi que le jitter. </div>
-                                </div>
-                                <div class="row decentralized-total-contribution">
-                                  <!-- Multiple Server -->
-                                <?php //include_once('multipleServers-full.php')?>
-                                </div>                   
-                            </div>                            
-                                </div>                   
-                            </div>                            
-                        </div>                                                
-                            </div>                            
-                        </div>                                                
-                    </div>
-
-                        
-                    </div>
-				</div>
-			</div>
-		</div>
+                 
+                </div>                            
+            </div>                                                
+        </div>                            
+    </div>                                                
+</div>
 
 	    <!-- BACK TO TOP BUTTON -->
 	    <a class="back-to-top-one-page back-to-top modeltheme-is-visible modeltheme-fade-out" href="#0">
@@ -204,24 +99,9 @@
 	    </footer>
 	    <div class="spacer_40"></div>
 	</div><!-- end HEADER -->
-<!-- JS SCRIPTS -->
-<script src='assets/js/jquery.js'></script>
-<script src='assets/js/bitwallet-plugins.js'></script>
-<script src='assets/js/bitwallet-custom.js'></script>
-<script src='assets/js/jquery.mb.YTPlayer.min.js'></script>
+
 <!-- WEBTICKER -->
-<script src="assets/plugins/webticker/jquery.webticker.min.js"></script>
-<!-- PLUGINS -->
-<script src="assets/plugins/flipclock/flipclock.js"></script>
-<script src='assets/plugins/select2/select2.min.js'></script>
-<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
-<script src='assets/plugins/magnific-popup/jquery.magnific-popup.js'></script>
-<!-- Charts -->
-<script src="assets/plugins/amcharts/amcharts.js"></script>
-<script src="assets/plugins/amcharts/pie.js"></script>
-<script src="assets/plugins/amcharts/animate.min.js"></script>
-<script src="assets/plugins/amcharts/depthChart/export.min.js"></script>
-<script src="assets/plugins/amcharts/depthChart/light.js"></script>
+
 
 </body>
 
