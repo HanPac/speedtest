@@ -7,7 +7,7 @@ $stats_password = '1234';
 // If set to true, test IDs will be obfuscated to prevent users from guessing URLs of other tests
 $enable_id_obfuscation = true;
 // If set to true, IP addresses will be redacted from IP and ISP info fields, as well as the log
-$redact_ip_addresses = false;
+$redact_ip_addresses = true;
 
 // Sqlite3 settings
 $Sqlite_db_file = '../../speedtest_telemetry.sql';

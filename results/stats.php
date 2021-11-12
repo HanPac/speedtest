@@ -13,7 +13,7 @@ header('Pragma: no-cache');
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LibreSpeed - Stats</title>
+        <title>SpeedTest by Han Nim - Stats</title>
         <style type="text/css">
             html,body{
                 margin:0;
@@ -61,7 +61,7 @@ header('Pragma: no-cache');
         </style>
     </head>
     <body>
-        <h1>LibreSpeed - Stats</h1>
+        <h1>SpeedTest by Han Nim - Stats</h1>
         <?php
         if (!isset($stats_password) || $stats_password === 'PASSWORD') {
             ?>
@@ -75,7 +75,7 @@ header('Pragma: no-cache');
                 ?>
                 <form action="stats.php" method="GET"><input type="hidden" name="op" value="logout" /><input type="submit" value="Logout" /></form>
                 <form action="stats.php" method="GET">
-                    <h3>Search test results</h3>
+                    <h3>Rechercher les résultats des tests</h3>
                     <input type="hidden" name="op" value="id" />
                     <input type="text" name="id" id="id" placeholder="Test ID" value=""/>
                     <input type="submit" value="Find" />
@@ -108,28 +108,28 @@ header('Pragma: no-cache');
                             <td><?= htmlspecialchars($speedtest['id_formatted'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>
-                            <th>Date and time</th>
+                            <th>Date et Heure</th>
                             <td><?= htmlspecialchars($speedtest['timestamp'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>
-                            <th>IP and ISP Info</th>
+                            <th>IP et ISP Info</th>
                             <td>
                                 <?= htmlspecialchars($speedtest['ip'], ENT_HTML5, 'UTF-8') ?><br/>
                                 <?= htmlspecialchars($speedtest['ispinfo'], ENT_HTML5, 'UTF-8') ?>
                             </td>
                         </tr>
                         <tr>
-                            <th>User agent and locale</th>
+                            <th>Agent utilisateur et paramètres régionaux</th>
                             <td><?= htmlspecialchars($speedtest['ua'], ENT_HTML5, 'UTF-8') ?><br/>
                                 <?= htmlspecialchars($speedtest['lang'], ENT_HTML5, 'UTF-8') ?>
                             </td>
                         </tr>
                         <tr>
-                            <th>Download speed</th>
+                            <th>Vitesse de téléchargement</th>
                             <td><?= htmlspecialchars($speedtest['dl'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>
-                            <th>Upload speed</th>
+                            <th>Vitesse de téléchargement</th>
                             <td><?= htmlspecialchars($speedtest['ul'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>
@@ -137,7 +137,7 @@ header('Pragma: no-cache');
                             <td><?= htmlspecialchars($speedtest['ping'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>
-                            <th>Jitter</th>
+                            <th>Gigue</th>
                             <td><?= htmlspecialchars($speedtest['jitter'], ENT_HTML5, 'UTF-8') ?></td>
                         </tr>
                         <tr>

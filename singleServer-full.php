@@ -312,9 +312,11 @@ function initUI(){
 			<span id="ip"></span>
 		</div>
 		<div id="shareArea" style="display:none;color:#FFFFFF;">
-			<h3 >Partager les resultats</h3>
-			<p>Test ID: <span id="testId"></span></p>
-			<input type="text" value="" id="resultsURL" readonly="readonly" onclick="this.select();this.focus();this.select();document.execCommand('copy');alert('Link copied')"/>
+			<h3 style="color:#FFFFFF">Partager les resultats</h3>
+			<p style="color:#FFFFFF">Test ID: <span id="testId"></span></p>
+			<div style="color:#00ff00">
+				<input type="text" value="" id="resultsURL" readonly="readonly" onclick="this.select();this.focus();this.select();document.execCommand('copy');alert('Lien copié')"/>
+			</div>
 			<img src="" id="resultsImg" />
 		</div>
 	</div> 
