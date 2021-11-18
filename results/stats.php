@@ -73,13 +73,13 @@ header('Pragma: no-cache');
                 ?><script type="text/javascript">window.location=location.protocol+"//"+location.host+location.pathname;</script><?php
             } else {
                 ?>
-                <form action="stats.php" method="GET"><input type="hidden" name="op" value="logout" /><input type="submit" value="Logout" /></form>
+                <form action="stats.php" method="GET"><input type="hidden" name="op" value="Déconnexion" /><input type="submit" value="Déconnexion" /></form>
                 <form action="stats.php" method="GET">
                     <h3>Rechercher les résultats des tests</h3>
                     <input type="hidden" name="op" value="id" />
                     <input type="text" name="id" id="id" placeholder="Test ID" value=""/>
-                    <input type="submit" value="Find" />
-                    <input type="submit" onclick="document.getElementById('id').value=''" value="Show last 100 tests" />
+                    <input type="submit" value="Trouver" />
+                    <input type="submit" onclick="document.getElementById('id').value=''" value="Montrer les 100 derniers tests" />
                 </form>
                 <?php
                 if ($_GET['op'] === 'id' && !empty($_GET['id'])) {
